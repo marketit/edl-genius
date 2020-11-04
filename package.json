@@ -1,6 +1,6 @@
 {
-  "name": "edl-genius",
-  "version": "3.4.2",
+  "name": "@marketit/edl-genius",
+  "version": "3.4.3",
   "description": "An ES6 module to work with Edit Decision Lists",
   "license": "MIT",
   "main": "./index.js",
@@ -12,6 +12,23 @@
     "name": "Brad Cordeiro",
     "email": "brad.cordeiro@gmail.com",
     "url": "http://www.bradc.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marketit/edl-genius.git"
+  },
+  "contributors": [
+    {
+      "name": "pho",
+      "email": "pho@marketit.asia"
+    },
+    {
+      "name": "bruce",
+      "email": "bruce@marketit.asia"
+    }
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/marketit"
   },
   "dependencies": {
     "detect-character-encoding": "^0.8.0",
